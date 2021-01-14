@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "647107141614",
+    "project_id": "mypastryshop-5ff0a",
+    "storage_bucket": "mypastryshop-5ff0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647107141614:android:418733969570846936b8ff",
+        "android_client_info": {
+          "package_name": "com.example.mypastryshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647107141614-lv06npo4ejac9u1o8gd0am9s0cefhicl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mypastryshop",
+            "certificate_hash": "face3eca3e0d9a8735c0be2ca49678d714d7458f"
+          }
+        },
+        {
+          "client_id": "647107141614-aaaf4c2asnc5u91g8nqfl8rodohlb5ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBySpSDI6a5BYqVwArMfMn43cvCwcIVB1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647107141614-aaaf4c2asnc5u91g8nqfl8rodohlb5ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

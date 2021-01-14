@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <Button
+        android:id="@+id/buttonStreetView"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="GoMap"
+        android:text="地圖查詢"
+        app:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toEndOf="@+id/buttonGo"
+        map:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <Button
+        android:id="@+id/buttonOriginal"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="GoMap"
+        android:text="連接網頁版"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <fragment
+
+
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:context=".MapsActivity" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="關於優樂芋"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="310dp"
+        android:text="我們在這裡!"
+        android:textAlignment="gravity"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/addressToFind"
+        android:layout_width="100dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="140dp"
+        android:ems="10"
+        android:hint="輸入欲查詢地址"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonGo"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:onClick="GoMap"
+        android:text="前往"
+        android:visibility="invisible"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="342dp"
+        android:layout_height="261dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="聯絡我們 326桃園市楊梅區幼獅路二段3號  xxx@xx.xx  (03)464-1162  網站資訊 關於我們  商品運送方式  退換貨辦法  會員專區 會員登入  免費註冊   © 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊© 2020 版權聲明 ＊＊＊僅為學術研究＊＊＊非商業用途＊＊＊"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
